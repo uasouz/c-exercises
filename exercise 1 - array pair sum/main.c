@@ -23,11 +23,12 @@ void findPairv2(int sum,int array[],int soa){
     quickSort(sortedArray,0,soa-1);
     int low = 0;
     int high= soa-1;
+    int pairsFound=0;
 
     while(low<high){
         if (sortedArray[low]+sortedArray[high] == sum){
             printf("Pair found at index %d and %d (%d + %d)\n",low,high,sortedArray[low],sortedArray[high]);
-            return;
+            pairsFound++;
         }
 
         if(sortedArray[low]+sortedArray[high] < sum){
@@ -36,7 +37,12 @@ void findPairv2(int sum,int array[],int soa){
             high--;
         }
     }
-    printf("Pair not found");
+    if(pairsFound==0)
+        printf("Pair not found");
+}
+
+void findPairv3(int sum,int array[],int soa){
+
 }
 
 void proccessArguments(int argc,char *argv[],int* sum,int* destination){
@@ -62,7 +68,7 @@ void proccessArguments(int argc,char *argv[],int* sum,int* destination){
 }
 
 int main(int argc,char *argv[]) {
-    if (argc==0) {
+    if (argc==1) {
         printf("no arguments");
         return 1;
     }
