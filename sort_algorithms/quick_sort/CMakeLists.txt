@@ -3,4 +3,4 @@ project(Exercises C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(quick-sort "quick_sort.c")
+add_executable(quick-sort "quick_sort.c" quick_sort.h)

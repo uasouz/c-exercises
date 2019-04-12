@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <memory.h>
 #include "stdio.h"
+#include "../sort_algorithms/quick_sort/quick_sort.h"
 
 void findPair(int sum,int*array,int soa){
     for(int i=0;i < soa;i++) {
@@ -16,8 +17,26 @@ void findPair(int sum,int*array,int soa){
     printf("Pair not found");
 }
 
-void findPairv2(int sum,int*array,int soa){
+void findPairv2(int sum,int array[],int soa){
+    int sortedArray[soa];
+    memcpy(sortedArray,array, soa* sizeof(int));
+    quickSort(sortedArray,0,soa-1);
+    int low = 0;
+    int high= soa-1;
 
+    while(low<high){
+        if (sortedArray[low]+sortedArray[high] == sum){
+            printf("Pair found at index %d and %d (%d + %d)\n",low,high,sortedArray[low],sortedArray[high]);
+            return;
+        }
+
+        if(sortedArray[low]+sortedArray[high] < sum){
+            low++;
+        } else {
+            high--;
+        }
+    }
+    printf("Pair not found");
 }
 
 void proccessArguments(int argc,char *argv[],int* sum,int* destination){
@@ -47,18 +66,12 @@ int main(int argc,char *argv[]) {
         printf("no arguments");
         return 1;
     }
-//    int array = int[]
+
     int sum;
     int array [argc-2];
     proccessArguments(argc,argv,&sum,array);
-//    for(int i=0;i < argc-2;i++) {
-//        printf("%d,", array[i]);
-//        if(i==argc-3){
-//            printf("\n");
-//        }
-//    }
     int soa = sizeof(array)/sizeof(int);
-    findPair(sum,array,soa);
+    findPairv2(sum,array,soa);
     return  0;
 }
 

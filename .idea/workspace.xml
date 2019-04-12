@@ -15,11 +15,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69493310-3070-435f-9c3f-4c742940926d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sort_algorithms/quick_sort/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort_algorithms/insertion_sort/insertion_sort.c" beforeDir="false" afterPath="$PROJECT_DIR$/sort_algorithms/insertion_sort/insertion_sort.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise 1 - array pair sum/main" beforeDir="false" afterPath="$PROJECT_DIR$/exercise 1 - array pair sum/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise 1 - array pair sum/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercise 1 - array pair sum/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort_algorithms/quick_sort/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sort_algorithms/quick_sort/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.c" beforeDir="false" afterPath="$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,19 +38,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort_algorithms/insertion_sort/insertion_sort.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
+            <state relative-caret-position="480">
               <caret line="32" selection-start-line="32" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+            <state relative-caret-position="60">
+              <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise 1 - array pair sum/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exercise 1 - array pair sum/main.c" />
         <option value="$PROJECT_DIR$/exercise1.c" />
         <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/search_algorithms/binary_search/CMakeLists.txt" />
@@ -91,14 +112,17 @@
         <option value="$PROJECT_DIR$/sort_algorithms/insertion_sort/insertion_sort.c" />
         <option value="$PROJECT_DIR$/sort_algorithms/quick_sort/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.h" />
         <option value="$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.c" />
+        <option value="$PROJECT_DIR$/exercise 1 - array pair sum/main.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1368" />
-    <option name="width" value="1400" />
-    <option name="height" value="900" />
+    <option name="x" value="-272" />
+    <option name="y" value="30" />
+    <option name="width" value="1390" />
+    <option name="height" value="675" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -106,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,12 +156,13 @@
               <item name="Exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercises" type="462c0819:PsiDirectoryNode" />
               <item name="sort_algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="insertion_sort" type="462c0819:PsiDirectoryNode" />
+              <item name="quick_sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.quick-sort">
+  <component name="RunManager" selected="CMake Application.ex1">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -221,30 +245,31 @@
       <workItem from="1554675954323" duration="12000" />
       <workItem from="1554781652292" duration="506000" />
       <workItem from="1554782164038" duration="3336000" />
-      <workItem from="1554866823574" duration="7758000" />
+      <workItem from="1554866823574" duration="8103000" />
+      <workItem from="1555037104314" duration="1734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19036000" />
+    <option name="totallyTimeSpent" value="21115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1368" y="0" width="1400" height="900" extended-state="6" />
+    <frame x="54" y="30" width="1314" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28444445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30933544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3254282" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3254282" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3254282" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33333334" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32495812" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30988276" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32890365" />
@@ -297,34 +322,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort_algorithms/quick_sort/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise 1 - array pair sum/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_algorithms/binary_search/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -340,17 +341,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sort_algorithms/insertion_sort/insertion_sort.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="480">
           <caret line="32" selection-start-line="32" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_algorithms/binary_search/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        <state relative-caret-position="60">
+          <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise 1 - array pair sum/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
