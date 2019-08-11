@@ -6,6 +6,7 @@
       <config projectName="Exercises" targetName="binary_search" />
       <config projectName="Exercises" targetName="quick-sort" />
       <config projectName="Exercises" targetName="ex1" />
+      <config projectName="Exercises" targetName="linked_list" />
       <config projectName="Exercises" targetName="ex2" />
     </generated>
   </component>
@@ -16,19 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69493310-3070-435f-9c3f-4c742940926d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data_structures/git-hashmap/hashmap.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/git-hashmap/hashmap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/linked_list/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/linked_list/linked_list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/linked_list/linked_list.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/hashmap/banned.h" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/git-hashmap/banned.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/hashmap/compat/bswap.h" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/git-hashmap/compat/bswap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/hashmap/git-compat-util.h" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/git-hashmap/git-compat-util.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/hashmap/hashmap.c" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/hashmap/hashmap.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/hashmap/hashmap.h" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/hashmap/hashmap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/hashmap/wildmatch.c" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/git-hashmap/wildmatch.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structures/hashmap/wildmatch.h" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/git-hashmap/wildmatch.h" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,101 +33,6 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/hashmap.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="e#88#116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structures/hashmap/hashmap.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-              <folding>
-                <element signature="e#40#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structures/hashmap/hashmap.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/hashmap.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="108" column="46" lean-forward="true" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/wildmatch.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="e#763#793#0" expanded="true" />
-                <element signature="e#817#863#0" expanded="true" />
-                <element signature="e#941#987#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/wildmatch.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/banned.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-              <folding>
-                <element signature="e#592#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structures/map/map.h">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>memcpy</find>
@@ -142,93 +41,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/exercise1.c" />
-        <option value="$PROJECT_DIR$/main.c" />
-        <option value="$PROJECT_DIR$/search_algorithms/binary_search/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/search_algorithms/binary_search/binary_search.c" />
-        <option value="$PROJECT_DIR$/sort_algorithms/insertion_sort/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/sort_algorithms/insertion_sort/insertion_sort.c" />
-        <option value="$PROJECT_DIR$/sort_algorithms/quick_sort/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.h" />
-        <option value="$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.c" />
-        <option value="$PROJECT_DIR$/exercise 2 - 0 sum subarray/main.c" />
-        <option value="$PROJECT_DIR$/exercise 1 - array pair sum/main.c" />
-        <option value="$PROJECT_DIR$/data_structures/map/map.c" />
-        <option value="$PROJECT_DIR$/data_structures/hashmap/banned.h" />
-        <option value="$PROJECT_DIR$/data_structures/hashmap/wildwatch.c" />
-        <option value="$PROJECT_DIR$/data_structures/hashmap/cache.h" />
-        <option value="$PROJECT_DIR$/data_structures/hashmap/compat/bswap.h" />
-        <option value="$PROJECT_DIR$/data_structures/hashmap/wildwatch.h" />
-        <option value="$PROJECT_DIR$/data_structures/hashmap/git-compat-util.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/data_structures/hashmap/hashmap.h" />
-        <option value="$PROJECT_DIR$/data_structures/hashmap/hashmap.c" />
-      </list>
-    </option>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="hMxnTSgc" />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1645" />
-    <option name="width" value="985" />
-    <option name="height" value="679" />
-  </component>
+  <component name="ProjectId" id="1PDVz7fFWYvYSVrzHILJPJYC0e9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structures" type="462c0819:PsiDirectoryNode" />
-              <item name="git-hashmap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structures" type="462c0819:PsiDirectoryNode" />
-              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sort_algorithms/quick_sort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data_structures/linked_list" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/exercise 1 - array pair sum" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data_structures/linked_list" />
       <recent name="$PROJECT_DIR$/sort_algorithms/quick_sort" />
       <recent name="$PROJECT_DIR$/sort_algorithms/insertion_sort" />
       <recent name="$PROJECT_DIR$/search_algorithms/binary_search" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exercise 1 - array pair sum" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -243,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.ex1">
+  <component name="RunManager" selected="CMake Application.linked_list">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -269,6 +110,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="linked_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Exercises" TARGET_NAME="linked_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Exercises" RUN_TARGET_NAME="linked_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="quick-sort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Exercises" TARGET_NAME="quick-sort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Exercises" RUN_TARGET_NAME="quick-sort">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -279,6 +125,7 @@
       <item itemvalue="CMake Application.binary_search" />
       <item itemvalue="CMake Application.ex1" />
       <item itemvalue="CMake Application.ex2" />
+      <item itemvalue="CMake Application.linked_list" />
       <item itemvalue="CMake Application.insertion-sort" />
       <item itemvalue="CMake Application.quick-sort" />
     </list>
@@ -302,312 +149,25 @@
       <workItem from="1554866823574" duration="8103000" />
       <workItem from="1555037104314" duration="5812000" />
       <workItem from="1555470391403" duration="4628000" />
+      <workItem from="1565408915906" duration="1360000" />
+      <workItem from="1565462410059" duration="9977000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29821000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1368" y="0" width="1400" height="900" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29481483" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.25955203" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32495812" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32495812" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3115578" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3283082" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="LuaJ" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30933544" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3254282" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32495812" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30988276" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.3283082" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="LuaJ" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercise1.c" />
-    <entry file="file:///usr/include/string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="328" column="13" selection-start-line="328" selection-start-column="13" selection-end-line="328" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort_algorithms/insertion_sort/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort_algorithms/quick_sort/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_algorithms/binary_search/binary_search.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_algorithms/binary_search/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise 1 - array pair sum/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise 2 - 0 sum subarray/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/hashmap/cache.h" />
-    <entry file="file://$PROJECT_DIR$/sort_algorithms/quick_sort/quick_sort.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/map/map.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/compat/bswap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#1800#2102#0" expanded="true" />
-            <element signature="e#2177#2274#0" expanded="true" />
-            <element signature="e#2513#3647#0" expanded="true" />
-            <element signature="e#4502#5412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/wildmatch.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="e#763#793#0" expanded="true" />
-            <element signature="e#817#863#0" expanded="true" />
-            <element signature="e#941#987#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/wildmatch.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/banned.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="e#592#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/map/map.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort_algorithms/insertion_sort/insertion_sort.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/git-compat-util.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="161" column="19" lean-forward="true" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
-          <folding>
-            <element signature="e#482#517#0" expanded="true" />
-            <element signature="e#789#906#0" expanded="true" />
-            <element signature="e#1009#1030#0" expanded="true" />
-            <element signature="e#1803#1839#0" expanded="true" />
-            <element signature="e#3188#3205#0" expanded="true" />
-            <element signature="e#3598#4022#0" expanded="true" />
-            <element signature="e#4647#4853#0" expanded="true" />
-            <element signature="e#5044#5087#0" expanded="true" />
-            <element signature="e#5095#5113#0" expanded="true" />
-            <element signature="e#5159#5181#0" expanded="true" />
-            <element signature="e#5189#5211#0" expanded="true" />
-            <element signature="e#5442#5515#0" expanded="true" />
-            <element signature="e#5546#5569#0" expanded="true" />
-            <element signature="e#5602#5638#0" expanded="true" />
-            <element signature="e#5671#5775#0" expanded="true" />
-            <element signature="e#5800#5824#0" expanded="true" />
-            <element signature="e#5831#5855#0" expanded="true" />
-            <element signature="e#6027#6050#0" expanded="true" />
-            <element signature="e#6205#6224#0" expanded="true" />
-            <element signature="e#6251#6603#0" expanded="true" />
-            <element signature="e#6781#6816#0" expanded="true" />
-            <element signature="e#6970#7092#0" expanded="true" />
-            <element signature="e#7128#7204#0" expanded="true" />
-            <element signature="e#7233#7270#0" expanded="true" />
-            <element signature="e#7325#7447#0" expanded="true" />
-            <element signature="e#7536#7721#0" expanded="true" />
-            <element signature="e#7729#7753#0" expanded="true" />
-            <element signature="e#7807#7832#0" expanded="true" />
-            <element signature="e#7959#7982#0" expanded="true" />
-            <element signature="e#8010#8031#0" expanded="true" />
-            <element signature="e#8161#8182#0" expanded="true" />
-            <element signature="e#8207#8228#0" expanded="true" />
-            <element signature="e#8253#8276#0" expanded="true" />
-            <element signature="e#8300#8318#0" expanded="true" />
-            <element signature="e#8342#8360#0" expanded="true" />
-            <element signature="e#8384#8402#0" expanded="true" />
-            <element signature="e#8596#8614#0" expanded="true" />
-            <element signature="e#9798#10132#0" expanded="true" />
-            <element signature="e#10184#10247#0" expanded="true" />
-            <element signature="e#10419#10599#0" expanded="true" />
-            <element signature="e#10770#10799#0" expanded="true" />
-            <element signature="e#10858#10885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/hashmap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="108" column="46" lean-forward="true" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/bits/stdint-intn.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/inttypes.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4313" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/bits/stdint-uintn.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/hashmap/hashmap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/hashmap/hashmap.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/git-hashmap/hashmap.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#88#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

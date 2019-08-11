@@ -9,3 +9,5 @@ add_executable(ex2 "exercise 2 - 0 sum subarray/main.c")
 add_subdirectory(search_algorithms/binary_search)
 add_subdirectory(sort_algorithms/insertion_sort)
 add_subdirectory(sort_algorithms/quick_sort)
+
+add_subdirectory(data_structures/linked_list)
